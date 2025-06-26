@@ -1,0 +1,10 @@
+Status,TestCase
+PASSED,tests/test_basic_validations.py::test_dummy
+PASSED,tests/test_basic_validations.py::test_no_nulls_in_required_columns
+PASSED,tests/test_basic_validations.py::test_no_duplicates_on_primary_key
+PASSED,tests/test_basic_validations.py::test_business_rules
+PASSED,tests/test_basic_validations.py::test_record_count_match
+PASSED,tests/test_incremental_validations.py::test_max_transaction_date_not_regressed
+PASSED,tests/test_incremental_validations.py::test_new_records_inserted
+FAILED,tests/test_basic_validations.py::test_loaded_data_matches_transformed
+FAILED,tests/test_incremental_validations.py::test_no_reappearing_history

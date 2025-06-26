@@ -1,0 +1,19 @@
+{
+  "required_columns": [
+    "transaction_id",
+    "customer_id",
+    "transaction_amount",
+    "transaction_date"
+  ],
+  "primary_key": [
+    "transaction_id"
+  ],
+  "business_rules": [
+    {
+      "name": "amount_should_be_positive",
+      "column": "transaction_amount",
+      "expression": "transaction_amount >= 0"
+    }
+  ],
+  "date_column": "transaction_date"
+}

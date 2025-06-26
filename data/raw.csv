@@ -1,0 +1,14 @@
+﻿transaction_id,customer_id,transaction_amount,transaction_date,payment_method,status
+TXN001,CUST1001,250,01-05-2024,Credit Card,Completed
+TXN002,CUST1002,150.75,02-05-2024,Debit Card,Completed
+TXN003,CUST1003,-50,03-05-2024,Cash,Failed
+TXN004,CUST1004,0,04-05-2024,Credit Card,Pending
+TXN005,CUST1005,300,05-05-2024,Cash,Completed
+TXN006,CUST1006,450.5,,Credit Card,Completed
+TXN007,CUST1007,180.25,07-05-2024,Debit Card,Completed
+TXN008,CUST1008,230,07-05-2024,Credit Card,Completed
+TXN009,CUST1009,250,07-05-2024,Credit Card,Completed
+TXN010,CUST1010,190,08-05-2024,Debit Card,Failed
+TXN001,CUST1001,250,01-05-2024,Credit Card,Completed
+, ,100,09-05-2024,Cash,Completed
+TXN012,CUST1012,320,09-05-2024,Credit Card,Completed
