@@ -35,7 +35,7 @@ jobs:
 
     - name: Upload Test Report
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: test_report
         path: results/test_report.csv
